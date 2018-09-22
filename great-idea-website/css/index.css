@@ -65,16 +65,18 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-body {
+.contentcontainer {
 	width: 876px;
 	margin: 0 auto;
 	align-self: center;
 }
 
 header {
-	width: inherit;
-	position: relative;
+	background-color: gray;
+	width: 876px;
+	position: fixed;
 	height: 36px;
+	z-index: 1000;
 }
 
 header img {
@@ -84,6 +86,7 @@ header img {
 }
 
 header nav {
+	margin-top: 8px;
 	display: inline-block;
 	width: 693px;
 }
@@ -176,4 +179,12 @@ a:hover {
 
 a div:hover {
 	background-color: lightgray;
+}
+
+.navdeco {
+	width: 100%;
+	position: fixed;
+	background-color: gray;
+	height: 36px;
+	z-index: 1000;
 }
