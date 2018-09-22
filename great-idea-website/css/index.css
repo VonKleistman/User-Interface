@@ -64,3 +64,116 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	width: 876px;
+	margin: 0 auto;
+	align-self: center;
+}
+
+header {
+	width: inherit;
+	position: relative;
+	height: 36px;
+}
+
+header img {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+header nav {
+	display: inline-block;
+	width: 693px;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: lightgray;
+	margin-right: 7%;
+}
+
+.gettingStarted {
+	display: relative;
+	position: relative;
+	height: 520px;
+}
+
+.gettingStarted h1 {
+	display: inline-block;
+	font-size: 70px;
+	width: 240px;
+	text-align: center;
+	margin-top: 90px;
+	margin-left: 110px;
+}
+
+.gettingStarted a div {
+	display: inline-block;
+	position: absolute;
+	height: 30px;
+	width: 140px;
+	bottom: 140px;
+	left: 160px;
+	padding-top: 5px;
+	text-align: center;
+	color: black;
+	border: 2px solid black;
+}
+
+.gettingStarted img {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin-top: 70px;
+}
+
+.contentDivider {
+	border-bottom: 1px solid black;
+}
+
+.topContent {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.topContent section {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.bottomContent {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.bottomContent section {
+	display: inline-block;
+	width: 33%;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+footer .contact {
+	width: 200px;
+}
+
+.contact p {
+	margin-bottom: 32px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a:hover {
+	color: black;
+}
+
+a div:hover {
+	background-color: lightgray;
+}
