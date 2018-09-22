@@ -113,17 +113,15 @@ header nav a {
 	margin-left: 110px;
 }
 
-.gettingStarted a div {
+.gettingStarted button {
 	display: inline-block;
 	position: absolute;
 	height: 30px;
 	width: 140px;
 	bottom: 140px;
 	left: 160px;
-	padding-top: 5px;
 	text-align: center;
 	color: black;
-	border: 2px solid black;
 }
 
 .gettingStarted img {
@@ -177,8 +175,10 @@ a:hover {
 	color: black;
 }
 
-a div:hover {
-	background-color: lightgray;
+.gettingStarted button:hover {
+	animation-name: startbutton;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
 
 .navdeco {
@@ -187,4 +187,18 @@ a div:hover {
 	background-color: gray;
 	height: 36px;
 	z-index: 1000;
+}
+
+@keyframes startbutton {
+	0% {
+
+	}
+
+	50% {
+		background-color: gray;
+	}
+
+	100% {
+		background-color: white;
+	}
 }
